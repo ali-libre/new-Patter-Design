@@ -16,7 +16,7 @@ Rectangle{
         hoverEnabled: true
         anchors.fill: parent
         onMouseXChanged: {
-            degree = mouseX + mouseY
+            degree = - mouseX + mouseY
             console.log("degree: "+ degree+ " x: " + mouseX)
         }
     }
