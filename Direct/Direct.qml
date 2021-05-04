@@ -4,11 +4,13 @@ import QtQuick 2.0
 Rectangle{
     id: root
     property var itemMargins: 10
-    property bool dev: true
+    property bool dev: false
     color: "transparent"
     border.color:  dev == false ? "transparent" : "white"
 
     //-------------------------------Left panel----------------------------
+
+
     Preview_Color_Sample{
         id: previewColorSample
         anchors{
@@ -24,6 +26,7 @@ Rectangle{
     Record{
         id:recordPanel
         border.color: dev == false ? "transparent" : "orange"
+        dev: root.dev
 
         anchors{
             margins: itemMargins

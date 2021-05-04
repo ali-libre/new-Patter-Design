@@ -15,9 +15,9 @@ Rectangle{
         spacing: width / 6
         Repeater{
             clip: true
-            height: 50
+//            height: 50
             anchors.fill: parent
-            width: 200
+//            width: 200
             model: RecordToolbarModel{}
             delegate: Image {
                 id: img

@@ -121,5 +121,10 @@
         <file>Direct/PlayList.qml</file>
         <file>PageListModel.qml</file>
         <file>PageList.qml</file>
+        <file>Direct/SpeedModel.qml</file>
+        <file>Direct/SpeedModelList.qml</file>
+        <file>icons/GreyIcon/icon43.svg</file>
+        <file>icons/GreyIcon/icon44.svg</file>
+        <file>Direct/Degree.qml</file>
     </qresource>
 </RCC>
