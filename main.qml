@@ -29,20 +29,14 @@ ApplicationWindow {
                 bottom: parent.bottom
                 right: parent.right
             }
-            width: parent.width * .1
+            width: parent.width * .08
         }
 
         //-------------------------------Direction Side----------------------------
         Direct{
             id:directPanel
             dev: false
-            anchors{
 
-                top: parent.top
-                left: parent.left
-                right: pageList.left
-                bottom: parent.bottom
-            }
         }
 
     }

@@ -1,10 +1,18 @@
 import QtQuick 2.0
 
 Rectangle{
+    id: root
+    border.color: dev == false ? "transparent" : "red"
+    height: 50
+    anchors{
+        bottom: parent.bottom
+        left: parent.left
+        right: parent.right
+    }
     color: "transparent"
     radius: 10
     width: 200
-    height: 20
+//    height: 20
     Row{
         anchors{
             left: parent.left

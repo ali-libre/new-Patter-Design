@@ -5,26 +5,18 @@ Rectangle{
     id:root
     color: "transparent"
     border.color: dev == false ? "transparent" : "blue"
-    anchors{
-        margins: 5
+    anchors{margins: 5}
 
-    }
     Degree{
+        id:degree
         dev: root.dev
     }
     SpeedModel{
-
+        id:speedModel
         dev: root.dev
-
     }
     RecordToolbar{
         id:recordToolbar
-        border.color: dev == false ? "transparent" : "red"
-        height: 50
-        anchors{
-            bottom: parent.bottom
-            left: parent.left
-            right: parent.right
-        }
+
     }
 }

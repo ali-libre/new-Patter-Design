@@ -7,6 +7,12 @@ Rectangle{
     property bool dev: false
     color: "transparent"
     border.color:  dev == false ? "transparent" : "white"
+    anchors{
+        top: parent.top
+        left: parent.left
+        right: pageList.left
+        bottom: parent.bottom
+    }
 
     //-------------------------------Left panel----------------------------
 
