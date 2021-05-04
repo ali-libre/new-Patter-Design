@@ -1,10 +1,125 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
-        <file>Page2Form.ui.qml</file>
         <file>qtquickcontrols2.conf</file>
-        <file>BtnSample.qml</file>
         <file>icons/folder.png</file>
         <file>icons/Screenshot_20210121_130247.png</file>
+        <file>icons/Asset 1.svg</file>
+        <file>icons/Asset 2.svg</file>
+        <file>icons/Asset 3.svg</file>
+        <file>icons/Asset 4.svg</file>
+        <file>icons/Asset 5.svg</file>
+        <file>icons/Asset 44.svg</file>
+        <file>icons/Asset 45.svg</file>
+        <file>icons/Asset 46.svg</file>
+        <file>icons/Asset 47.svg</file>
+        <file>icons/Asset 48.svg</file>
+        <file>icons/Asset 51.svg</file>
+        <file>icons/Asset 53.svg</file>
+        <file>icons/Asset 54.svg</file>
+        <file>icons/Asset 55.svg</file>
+        <file>icons/Asset 56.svg</file>
+        <file>icons/Asset 57.svg</file>
+        <file>icons/Asset 58.svg</file>
+        <file>icons/Asset 59.svg</file>
+        <file>icons/Asset 60.svg</file>
+        <file>icons/Ultralight-S (2).svg</file>
+        <file>icons/Ultralight-S (3).svg</file>
+        <file>icons/Ultralight-S (4).svg</file>
+        <file>icons/Ultralight-S (5).svg</file>
+        <file>icons/Ultralight-S (6).svg</file>
+        <file>icons/Ultralight-S (7).svg</file>
+        <file>icons/Ultralight-S (8).svg</file>
+        <file>icons/Ultralight-S (9).svg</file>
+        <file>icons/Ultralight-S (10).svg</file>
+        <file>icons/Ultralight-S (11).svg</file>
+        <file>icons/Ultralight-S (12).svg</file>
+        <file>icons/Ultralight-S (13).svg</file>
+        <file>icons/Ultralight-S (14).svg</file>
+        <file>icons/Ultralight-S (15).svg</file>
+        <file>icons/Ultralight-S (16).svg</file>
+        <file>icons/Ultralight-S (17).svg</file>
+        <file>icons/Ultralight-S (18).svg</file>
+        <file>icons/Ultralight-S (19).svg</file>
+        <file>icons/Ultralight-S (20).svg</file>
+        <file>icons/Ultralight-S (21).svg</file>
+        <file>icons/Ultralight-S (22).svg</file>
+        <file>icons/Ultralight-S (23).svg</file>
+        <file>icons/Ultralight-S (24).svg</file>
+        <file>icons/Ultralight-S (25).svg</file>
+        <file>icons/Ultralight-S (26).svg</file>
+        <file>icons/Ultralight-S (27).svg</file>
+        <file>icons/Ultralight-S (28).svg</file>
+        <file>icons/Ultralight-S (29).svg</file>
+        <file>icons/Ultralight-S (30).svg</file>
+        <file>icons/Ultralight-S (31).svg</file>
+        <file>icons/Ultralight-S (32).svg</file>
+        <file>icons/Ultralight-S (33).svg</file>
+        <file>icons/Ultralight-S (34).svg</file>
+        <file>icons/Ultralight-S (35).svg</file>
+        <file>icons/Ultralight-S (36).svg</file>
+        <file>icons/Ultralight-S (37).svg</file>
+        <file>icons/Ultralight-S (38).svg</file>
+        <file>icons/Ultralight-S (39).svg</file>
+        <file>icons/Ultralight-S (40).svg</file>
+        <file>icons/Ultralight-S.svg</file>
+        <file>Botton/BtnSample.qml</file>
+        <file>Botton/BtnSample_vertical.qml</file>
+        <file>Botton/flatButton.qml</file>
+        <file>Direct/ColorPage.qml</file>
+        <file>Direct/Direct.qml</file>
+        <file>Direct/PreviewPanel.qml</file>
+        <file>Direct/SidePanel.qml</file>
+        <file>Direct/SplitBar.qml</file>
+        <file>Direct/Preview_Color_Sample.qml</file>
+        <file>Direct/Record.qml</file>
+        <file>Direct/RecordToolbarModel.qml</file>
+        <file>icons/GreyIcon/icon1.svg</file>
+        <file>icons/GreyIcon/icon10.svg</file>
+        <file>icons/GreyIcon/icon11.svg</file>
+        <file>icons/GreyIcon/icon12.svg</file>
+        <file>icons/GreyIcon/icon13.svg</file>
+        <file>icons/GreyIcon/icon14.svg</file>
+        <file>icons/GreyIcon/icon15.svg</file>
+        <file>icons/GreyIcon/icon16.svg</file>
+        <file>icons/GreyIcon/icon17.svg</file>
+        <file>icons/GreyIcon/icon18.svg</file>
+        <file>icons/GreyIcon/icon19.svg</file>
+        <file>icons/GreyIcon/icon2.svg</file>
+        <file>icons/GreyIcon/icon20.svg</file>
+        <file>icons/GreyIcon/icon21.svg</file>
+        <file>icons/GreyIcon/icon22.svg</file>
+        <file>icons/GreyIcon/icon23.svg</file>
+        <file>icons/GreyIcon/icon24.svg</file>
+        <file>icons/GreyIcon/icon25.svg</file>
+        <file>icons/GreyIcon/icon26.svg</file>
+        <file>icons/GreyIcon/icon27.svg</file>
+        <file>icons/GreyIcon/icon28.svg</file>
+        <file>icons/GreyIcon/icon29.svg</file>
+        <file>icons/GreyIcon/icon3.svg</file>
+        <file>icons/GreyIcon/icon30.svg</file>
+        <file>icons/GreyIcon/icon31.svg</file>
+        <file>icons/GreyIcon/icon32.svg</file>
+        <file>icons/GreyIcon/icon33.svg</file>
+        <file>icons/GreyIcon/icon34.svg</file>
+        <file>icons/GreyIcon/icon35.svg</file>
+        <file>icons/GreyIcon/icon36.svg</file>
+        <file>icons/GreyIcon/icon37.svg</file>
+        <file>icons/GreyIcon/icon38.svg</file>
+        <file>icons/GreyIcon/icon39.svg</file>
+        <file>icons/GreyIcon/icon4.svg</file>
+        <file>icons/GreyIcon/icon40.svg</file>
+        <file>icons/GreyIcon/icon41.svg</file>
+        <file>icons/GreyIcon/icon5.svg</file>
+        <file>icons/GreyIcon/icon6.svg</file>
+        <file>icons/GreyIcon/icon7.svg</file>
+        <file>icons/GreyIcon/icon8.svg</file>
+        <file>icons/GreyIcon/icon9.svg</file>
+        <file>Direct/RecordToolbar.qml</file>
+        <file>Direct/ColorPageModel.qml</file>
+        <file>Direct/PlayListModel.qml</file>
+        <file>Direct/PlayList.qml</file>
+        <file>PageListModel.qml</file>
+        <file>PageList.qml</file>
     </qresource>
 </RCC>
