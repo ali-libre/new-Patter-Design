@@ -3,6 +3,7 @@ import "./Botton/"
 Rectangle{
     id:root
     property bool dev: true
+    property int indexer: 0
     color: "transparent"
     Column{
         anchors.fill: parent

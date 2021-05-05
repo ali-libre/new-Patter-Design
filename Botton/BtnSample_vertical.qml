@@ -1,4 +1,5 @@
 import QtQuick 2.12
+import "../Direct"
 
 Rectangle{
     id:root
@@ -20,7 +21,7 @@ Rectangle{
 //    radius: 5
     border.width: 1
 //    border.color: borderColor
-    color: backColor
+    color: indexer == index ? "white" : Qt.darker("grey")
 
 //--------------------icon--------------------
 
@@ -77,37 +78,41 @@ Rectangle{
         }
 //        Text {
 //            id: description
-//            text: desc //qsTr("Button 1")
-//            color: Qt.darker(fontColor)
+//            text: "_______" //qsTr("Button 1")
+//            color: "black"
 
 //            anchors.top: name.bottom
 //            anchors.left: parent.left
 //            anchors.right: parent.right
-//            anchors.leftMargin: 5
+//            anchors.horizontalCenter: parent.horizontalCenter
 //            elide: Text.ElideLeft
-//            font.pointSize: 7
+//            font.pointSize: 12
+//            height: 20
 //        }
-    }
+//    }
 
     MouseArea{
         id:mouseA
         anchors.fill: parent
         hoverEnabled: true
-        onEntered: {
-            state: "enter"
-//            transitions: transitions{
-//                ColorAnimation  root.color {to: "bacl"; duration}
-//            }
-            stateGroup.state = "enter"
+//        onEntered: {
+//            state: "enter"
+////            transitions: transitions{
+////                ColorAnimation  root.color {to: "bacl"; duration}
+////            }
+//            stateGroup.state = "enter"
 
-//            root.color= Qt.lighter(root.color)
+////            root.color= Qt.lighter(root.color)
 
 
-        }
-        onExited:  {
-            state: "leave"
-            stateGroup.state = "leave"
-//            root.color = /*Qt.darker(*/backColor
+//        }
+//        onExited:  {
+//            state: "leave"
+//            stateGroup.state = "leave"
+////            root.color = /*Qt.darker(*/backColor
+//        }
+        onClicked: {
+            indexer = index
         }
     }
 
@@ -119,45 +124,45 @@ Rectangle{
 //    transitions: Transition {
 //        ColorAnimation { duration: 1000 }
 //    }
-    StateGroup{
-        id: stateGroup
-        states: [
-            State {
-                name: "enter"
-                PropertyChanges {
-//                    target: object
-                    target: root
-                    color: Qt.lighter(backColor)
+//    StateGroup{
+//        id: stateGroup
+//        states: [
+//            State {
+//                name: "enter"
+//                PropertyChanges {
+////                    target: object
+//                    target: root
+//                    color: Qt.lighter(backColor)
 
-                }
-            }
-        ]
+//                }
+//            }
+//        ]
 
-        transitions: [
-            Transition {
-                from: "*"
-                to: "enter"
+//        transitions: [
+//            Transition {
+//                from: "*"
+//                to: "enter"
 
-                ColorAnimation {
-                    from: backColor
-                    to: (backColor != "black") ? Qt.lighter(backColor) : Qt.darker(backColor)
-                    duration: time
-                }
+//                ColorAnimation {
+//                    from: backColor
+//                    to: (backColor != "black") ? Qt.lighter(backColor) : Qt.darker(backColor)
+//                    duration: time
+//                }
 
 
-            },
-            Transition {
-                from: "enter"
-                to: "leave"
+//            },
+//            Transition {
+//                from: "enter"
+//                to: "leave"
 
-                ColorAnimation {
-                    from: (backColor != "black") ? Qt.lighter(backColor) : Qt.darker(backColor)
-                    to: backColor
-                    duration: time
-                }
-            }
-        ]
-    }
+//                ColorAnimation {
+//                    from: (backColor != "black") ? Qt.lighter(backColor) : Qt.darker(backColor)
+//                    to: backColor
+//                    duration: time
+//                }
+//            }
+//        ]
+//    }
 
 
 }

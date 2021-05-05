@@ -1,8 +1,10 @@
 import QtQuick 2.0
 import "../Botton"
+
 Rectangle{
     property bool dev: false
-    property var indexer: -1
+    property var backClick: 0
+    property var indexer: 0
     id:root
     SplitBar{
         id:ssSpliter
@@ -15,7 +17,16 @@ Rectangle{
             left: parent.left
             right: parent.right
         }
-        name: "PlayList"
+        name: "Color"
+    }
+    Text {
+        anchors{
+            left: parent.left
+            bottom: parent.bottom
+        }
+
+//        id: name
+        text: indexer
     }
 
     GridView{
@@ -30,13 +41,25 @@ Rectangle{
         }
         cellWidth: 80
         cellHeight: cellWidth
-        model: PlayListModel{}
-        delegate: BcButtom{
-            color: Qt.darker("grey")
-            width: 70
-            name: label
+        model: ColorPageModel{}
+        delegate:
+            BcButtom{
+            radius: 5
+            color: cColor
+            width: 50
             height: width
+
+            MouseArea{
+                anchors.fill: parent
+                onClicked: {
+        //            label.text =index
+                    borderValue = indexer == index ? true : false
+                    previewPage.kolor = parent.color
+                    indexer = index
+                }
+            }
         }
 
     }
+
 }

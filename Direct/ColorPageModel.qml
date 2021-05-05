@@ -11,4 +11,6 @@ ListModel{
     ListElement{cColor:"#0e3550"}
     ListElement{cColor:"#8c4812"}
     ListElement{cColor:"#4c7215"}
+    ListElement{cColor:"#ffffff"}
+    ListElement{cColor:"#565656"}
 }

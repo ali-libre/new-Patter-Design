@@ -3,8 +3,8 @@ import "../Botton"
 
 Rectangle{
     property bool dev: false
-    property var backClick: 0
-    id:root
+    property int indexer: -1
+    id:l_panel
     SplitBar{
         id:ssSpliter
 
@@ -29,23 +29,14 @@ Rectangle{
             margins: 10
             leftMargin: 20
         }
-        cellWidth: 80
+        cellWidth: 70
         cellHeight: cellWidth
         model: ColorPageModel{}
-        delegate: Rectangle{
-            radius: 5
-            color: cColor
-            width: 50
-            height: width
-            MouseArea{
-                anchors.fill: parent
-                // !! ___________ onclick change Bridge previde Color_____________ !!
-                onClicked: {previewPage.kolor = color
-//                    border.color= "blue"
-                }
-            }
-        }
-
+        delegate: BcButtom{
+                        color: cColor
+                        width: 60
+                        height: width
+                    }
     }
 
 }
