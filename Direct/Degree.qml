@@ -17,7 +17,7 @@ Rectangle{
         anchors.fill: parent
         onMouseXChanged: {
             degree = - mouseX + mouseY
-            console.log("degree: "+ degree+ " x: " + mouseX)
+//            console.log("degree: "+ degree+ " x: " + mouseX)
         }
     }
     Image {
